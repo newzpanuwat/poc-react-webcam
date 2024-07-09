@@ -19,13 +19,14 @@ function App() {
     <div id="root">
       <Webcam
         audio={false}
-        height={720}
+        // height={720}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
-        width={1280}
+        // width={1280}
         videoConstraints={videoConstraints}
       />
-      <button onClick={capture}>Capture</button> <br />
+       <br />
+      <button onClick={capture}>Capture</button>
       {imgSrc && <img src={imgSrc} />}
     </div>
   );
