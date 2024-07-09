@@ -19,10 +19,10 @@ function App() {
     <div id="root">
       <Webcam
         audio={false}
-        // height={720}
+        // height={1280}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
-        // width={1280}
+        // width={720}
         videoConstraints={videoConstraints}
       />
        <br />
